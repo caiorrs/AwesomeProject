@@ -61,13 +61,13 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: newColor(),
-    fontSize: 20,
+    fontSize: 25,
   },
   text4all: {
     fontSize: 30,
     padding: 10,
     color: '#ffffff',
-    fontWeight: "300",
+    fontWeight: "bold",
   }
 });
 AppRegistry.registerComponent('AwesomeProject', () => timeBackground);
